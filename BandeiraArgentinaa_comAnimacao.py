@@ -41,10 +41,10 @@ def Desenhar():
         Desenharquadrado( x1=-375 /tam_x, y1 = 290/tam_y, x2=375/tam_x, y2 = 290/tam_y, x3 = 375/tam_x, y3 =50/tam_y, x4 = -375/tam_x, y4 = 0/tam_y,  r =(0/byte) , g= (0/byte) ,b = (255/byte))
         Desenharquadrado( x1= -375/tam_x, y1 = 80/tam_y, x2 = 375/tam_x, y2 = 80/tam_y, x3=375/tam_x, y3= -124/tam_y, x4= -375/tam_x, y4 = -124/tam_y, r = (255/byte), g = (255/byte), b = (255/byte))
         Desenharquadrado( x1= -375/tam_x, y1 = -20/tam_y, x2 = 375/tam_x, y2 = -20/tam_y, x3 = 375/tam_x, y3 = -200/tam_y, x4 = -375/tam_x, y4 =-200/tam_y,   r = (0/byte), g =(0/byte), b = (255/byte))
-        glFlush()
+        #glFlush()
 
 # Executa os comandos OpenGL
-glutSwapBuffers()
+        glutSwapBuffers()
         
 def Timer(value):
 
